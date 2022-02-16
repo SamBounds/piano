@@ -3,7 +3,7 @@ import board
 import neopixel
 #import simple_controller
 
-class RainbowController(SimpleController):
+class RainbowController():
     DOWN = 144
 
     def __init__(self, num_lights):
